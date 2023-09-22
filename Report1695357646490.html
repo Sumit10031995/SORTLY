@@ -1,0 +1,973 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>My Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">.r-img { width: 100%; height: auto; } .test { font-family: Arial, sans-serif; }</style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">SORTLY AUTOMATION REPORT</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 22, 2023 10:10:46</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginAsAdminWithValidCridentials</p>
+            <p class="text-sm">
+              <span>10:10:55 am</span> / <span>00:00:05:160</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loginAsAdminWithValidCridentials</h5>
+<span class='badge badge-success'>09.22.2023 10:10:55 am</span>
+<span class='badge badge-danger'>09.22.2023 10:11:01 am</span>
+<span class='badge badge-default'>00:00:05:160</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:10:56 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:01 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:01 am</td>
+        <td>
+          <span class='badge white-text green'>Admin Successfully Loggedin</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginAsOwnerWithValidCridentials</p>
+            <p class="text-sm">
+              <span>10:11:09 am</span> / <span>00:00:05:087</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loginAsOwnerWithValidCridentials</h5>
+<span class='badge badge-success'>09.22.2023 10:11:09 am</span>
+<span class='badge badge-danger'>09.22.2023 10:11:14 am</span>
+<span class='badge badge-default'>00:00:05:087</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:10 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:14 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:14 am</td>
+        <td>
+          <span class='badge white-text green'>Owner Successfully Loggedin</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addAndDeleteFolderTestByOwner</p>
+            <p class="text-sm">
+              <span>10:11:22 am</span> / <span>00:00:56:479</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addAndDeleteFolderTestByOwner</h5>
+<span class='badge badge-success'>09.22.2023 10:11:22 am</span>
+<span class='badge badge-danger'>09.22.2023 10:12:18 am</span>
+<span class='badge badge-default'>00:00:56:479</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:23 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:27 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:27 am</td>
+        <td>
+          <span class='badge white-text green'>Admin Successfully Loggedin</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:27 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:27 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:11:37 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 002" and Expected text="Test Folder 002"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:18 am</td>
+        <td>
+          <span class='badge white-text green'>Add Folder & Delete Folder Owner Action Successful</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addAndDeleteFolderTestByAdmin</p>
+            <p class="text-sm">
+              <span>10:12:27 am</span> / <span>00:00:56:867</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addAndDeleteFolderTestByAdmin</h5>
+<span class='badge badge-success'>09.22.2023 10:12:27 am</span>
+<span class='badge badge-danger'>09.22.2023 10:13:24 am</span>
+<span class='badge badge-default'>00:00:56:867</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:28 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:32 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:32 am</td>
+        <td>
+          <span class='badge white-text green'>Admin Successfully Loggedin</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:32 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:33 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:12:42 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 002" and Expected text="Test Folder 002"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:24 am</td>
+        <td>
+          <span class='badge white-text green'>Add Folder & Delete Folder Admin Action Successful</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createFiveFolderAndMoveFolderByAdmin</p>
+            <p class="text-sm">
+              <span>10:13:32 am</span> / <span>00:01:33:658</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createFiveFolderAndMoveFolderByAdmin</h5>
+<span class='badge badge-success'>09.22.2023 10:13:32 am</span>
+<span class='badge badge-danger'>09.22.2023 10:15:06 am</span>
+<span class='badge badge-default'>00:01:33:658</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:33 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:37 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:37 am</td>
+        <td>
+          <span class='badge white-text green'>Admin Successfully Loggedin</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:37 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:38 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:46 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00223" and Expected text="Test Folder 00223"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:53 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:13:54 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:01 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00210" and Expected text="Test Folder 00210"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:07 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:08 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:16 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00242" and Expected text="Test Folder 00242"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:23 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:23 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:31 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00270" and Expected text="Test Folder 00270"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:37 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:38 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:14:46 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00221" and Expected text="Test Folder 00221"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:06 am</td>
+        <td>
+          <span class='badge white-text green'>Move 5th Folder to 3rd Folder Admin Action Successful</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createFiveFolderAndMoveFolderByOwner</p>
+            <p class="text-sm">
+              <span>10:15:14 am</span> / <span>00:01:36:849</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createFiveFolderAndMoveFolderByOwner</h5>
+<span class='badge badge-success'>09.22.2023 10:15:14 am</span>
+<span class='badge badge-danger'>09.22.2023 10:16:51 am</span>
+<span class='badge badge-default'>00:01:36:849</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:15 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:19 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:19 am</td>
+        <td>
+          <span class='badge white-text green'>Admin Successfully Loggedin</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:19 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:19 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:29 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00284" and Expected text="Test Folder 00284"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:36 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:37 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:44 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00243" and Expected text="Test Folder 00243"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:51 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:51 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:15:59 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00290" and Expected text="Test Folder 00290"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:06 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:06 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:15 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00281" and Expected text="Test Folder 00281"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:23 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:23 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:31 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 00259" and Expected text="Test Folder 00259"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:16:51 am</td>
+        <td>
+          <span class='badge white-text green'>Move 5th Folder to 3rd Folder Owner Action Successful</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addAndCloneFolderTestByOwner</p>
+            <p class="text-sm">
+              <span>10:16:59 am</span> / <span>00:00:14:046</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addAndCloneFolderTestByOwner</h5>
+<span class='badge badge-success'>09.22.2023 10:16:59 am</span>
+<span class='badge badge-danger'>09.22.2023 10:17:13 am</span>
+<span class='badge badge-default'>00:00:14:046</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:00 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:04 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:04 am</td>
+        <td>
+          <span class='badge white-text green'>Owner Successfully Loggedin</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:04 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:04 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:13 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 001" and Expected text="Test Folder 001"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:13 am</td>
+        <td>
+          <span class='badge white-text green'>Clone Folder Owner Action Successful</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addAndCloneFolderTestByAdmin</p>
+            <p class="text-sm">
+              <span>10:17:21 am</span> / <span>00:00:12:986</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addAndCloneFolderTestByAdmin</h5>
+<span class='badge badge-success'>09.22.2023 10:17:21 am</span>
+<span class='badge badge-danger'>09.22.2023 10:17:34 am</span>
+<span class='badge badge-default'>00:00:12:986</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:22 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Log in to your account." and Expected text="Log in to your account."</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:26 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Dashboard" and Expected text="Dashboard"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:26 am</td>
+        <td>
+          <span class='badge white-text green'>Owner Successfully Loggedin</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:26 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="ADD NEW" and Expected text="ADD NEW"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:27 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Add Folder" and Expected text="Add Folder"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:34 am</td>
+        <td>
+          <span class='badge white-text green'>Actual And Expected Values Are Matching : Actual Text="Test Folder 001" and Expected text="Test Folder 001"</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:17:34 am</td>
+        <td>
+          <span class='badge white-text green'>Clone Folder Admin Action Successful</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 22, 2023 10:10:46</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 22, 2023 10:17:35</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>8</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>8</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>72</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"loginAsAdminWithValidCridentials":5.16,"loginAsOwnerWithValidCridentials":5.087,"addAndDeleteFolderTestByOwner":56.479,"addAndDeleteFolderTestByAdmin":56.867,"createFiveFolderAndMoveFolderByAdmin":93.658,"createFiveFolderAndMoveFolderByOwner":96.849,"addAndCloneFolderTestByOwner":14.046,"addAndCloneFolderTestByAdmin":12.986
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 8,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 72,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
