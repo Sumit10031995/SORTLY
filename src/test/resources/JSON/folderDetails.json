@@ -1,0 +1,13 @@
+{
+	"TestFolderOne": {
+		"name": "Test Folder 001",
+		"tagName": "dewalt",
+		"notes": "It is a test folder"
+	},
+	"TestFolderTwo": {
+		"name": "Test Folder 002",
+		"tagName": "dewalt",
+		"notes": "It is a test folder"
+	}
+	
+}

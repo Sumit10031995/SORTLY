@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Sortly]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="1" name="sequential(failed)">
+    <classes>
+      <class name="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests">
+        <methods>
+          <include name="createFiveFolderAndMoveFolderByOwner" invocation-numbers="0"/>
+          <include name="quitQuit"/>
+          <include name="lunchBrowser"/>
+          <include name="addAndCloneFolderTestByAdmin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests -->
+    </classes>
+  </test> <!-- sequential(failed) -->
+</suite> <!-- Failed suite [Sortly] -->

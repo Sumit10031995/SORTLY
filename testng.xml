@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sortly" parallel="none" thread-count="1">
+	
+	<parameter name="browser" value="firefox"></parameter>
+	<test name="sequential">
+		<!--<groups>
+			<run>
+				<include name="userLogin"></include>
+			</run>
+		</groups>-->
+		<classes>
+			<class name="com.sortly.automation.ui.test.SortlyUserLoginTests" />
+			<class name="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests" />
+
+		</classes>
+	</test>
+</suite>

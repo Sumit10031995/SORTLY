@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-22T10:10:46 IST" name="Sortly" finished-at="2023-09-22T10:17:35 IST" duration-ms="408983">
+    <groups>
+      <group name="owner">
+        <method signature="SortlyUserLoginTests.loginAsOwnerWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" name="loginAsOwnerWithValidCridentials" class="com.sortly.automation.ui.test.SortlyUserLoginTests"/>
+      </group> <!-- owner -->
+      <group name="userLogin">
+        <method signature="SortlyUserLoginTests.loginAsAdminWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" name="loginAsAdminWithValidCridentials" class="com.sortly.automation.ui.test.SortlyUserLoginTests"/>
+        <method signature="SortlyUserLoginTests.loginAsOwnerWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" name="loginAsOwnerWithValidCridentials" class="com.sortly.automation.ui.test.SortlyUserLoginTests"/>
+      </group> <!-- userLogin -->
+      <group name="Owner">
+        <method signature="SortlyFolderAndItemOperationTests.addAndDeleteFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndDeleteFolderTestByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.createFiveFolderAndMoveFolderByOwner(com.sortly.automation.DTO.UsersDTO)[pri:3, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="createFiveFolderAndMoveFolderByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndCloneFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:4, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndCloneFolderTestByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+      </group> <!-- Owner -->
+      <group name="folder">
+        <method signature="SortlyFolderAndItemOperationTests.addAndDeleteFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndDeleteFolderTestByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndDeleteFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndDeleteFolderTestByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.createFiveFolderAndMoveFolderByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:2, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="createFiveFolderAndMoveFolderByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.createFiveFolderAndMoveFolderByOwner(com.sortly.automation.DTO.UsersDTO)[pri:3, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="createFiveFolderAndMoveFolderByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndCloneFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:4, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndCloneFolderTestByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndCloneFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:5, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndCloneFolderTestByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+      </group> <!-- folder -->
+      <group name="createFolder&amp;deleteFolder">
+        <method signature="SortlyFolderAndItemOperationTests.addAndDeleteFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndDeleteFolderTestByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndDeleteFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndDeleteFolderTestByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+      </group> <!-- createFolder&deleteFolder -->
+      <group name="createFolder&amp;MoveFolder">
+        <method signature="SortlyFolderAndItemOperationTests.createFiveFolderAndMoveFolderByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:2, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="createFiveFolderAndMoveFolderByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.createFiveFolderAndMoveFolderByOwner(com.sortly.automation.DTO.UsersDTO)[pri:3, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="createFiveFolderAndMoveFolderByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+      </group> <!-- createFolder&MoveFolder -->
+      <group name="admin">
+        <method signature="SortlyUserLoginTests.loginAsAdminWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" name="loginAsAdminWithValidCridentials" class="com.sortly.automation.ui.test.SortlyUserLoginTests"/>
+      </group> <!-- admin -->
+      <group name="createFolder&amp;CloneFolder">
+        <method signature="SortlyFolderAndItemOperationTests.addAndCloneFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:4, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndCloneFolderTestByOwner" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndCloneFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:5, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndCloneFolderTestByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+      </group> <!-- createFolder&CloneFolder -->
+      <group name="Admin">
+        <method signature="SortlyFolderAndItemOperationTests.addAndDeleteFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndDeleteFolderTestByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.createFiveFolderAndMoveFolderByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:2, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="createFiveFolderAndMoveFolderByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+        <method signature="SortlyFolderAndItemOperationTests.addAndCloneFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:5, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" name="addAndCloneFolderTestByAdmin" class="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests"/>
+      </group> <!-- Admin -->
+      <group name="ownerLogin">
+        <method signature="SortlyUserLoginTests.loginAsOwnerWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" name="loginAsOwnerWithValidCridentials" class="com.sortly.automation.ui.test.SortlyUserLoginTests"/>
+      </group> <!-- ownerLogin -->
+      <group name="adminLogin">
+        <method signature="SortlyUserLoginTests.loginAsAdminWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" name="loginAsAdminWithValidCridentials" class="com.sortly.automation.ui.test.SortlyUserLoginTests"/>
+      </group> <!-- adminLogin -->
+    </groups>
+    <test started-at="2023-09-22T10:10:46 IST" name="sequential" finished-at="2023-09-22T10:17:35 IST" duration-ms="408983">
+      <class name="com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:11:15 IST" name="lunchBrowser" finished-at="2023-09-22T10:11:22 IST" duration-ms="6914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="addAndDeleteFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:11:22 IST" name="addAndDeleteFolderTestByOwner" data-provider="Owner" finished-at="2023-09-22T10:12:18 IST" duration-ms="56480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+owner_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndDeleteFolderTestByOwner -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:12:18 IST" name="quitQuit" finished-at="2023-09-22T10:12:19 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:12:19 IST" name="lunchBrowser" finished-at="2023-09-22T10:12:27 IST" duration-ms="7744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="addAndDeleteFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:12:27 IST" name="addAndDeleteFolderTestByAdmin" data-provider="Admin" finished-at="2023-09-22T10:13:24 IST" duration-ms="56868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+admin_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndDeleteFolderTestByAdmin -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:13:24 IST" name="quitQuit" finished-at="2023-09-22T10:13:24 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:13:24 IST" name="lunchBrowser" finished-at="2023-09-22T10:13:32 IST" duration-ms="7445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="createFiveFolderAndMoveFolderByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:2, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:13:32 IST" name="createFiveFolderAndMoveFolderByAdmin" data-provider="Admin" finished-at="2023-09-22T10:15:06 IST" duration-ms="93660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+admin_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiveFolderAndMoveFolderByAdmin -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:15:06 IST" name="quitQuit" finished-at="2023-09-22T10:15:07 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:15:07 IST" name="lunchBrowser" finished-at="2023-09-22T10:15:14 IST" duration-ms="7153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="createFiveFolderAndMoveFolderByOwner(com.sortly.automation.DTO.UsersDTO)[pri:3, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:15:14 IST" name="createFiveFolderAndMoveFolderByOwner" data-provider="Owner" finished-at="2023-09-22T10:16:51 IST" duration-ms="96850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+owner_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiveFolderAndMoveFolderByOwner -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:16:51 IST" name="quitQuit" finished-at="2023-09-22T10:16:52 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:16:52 IST" name="lunchBrowser" finished-at="2023-09-22T10:16:59 IST" duration-ms="6951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="addAndCloneFolderTestByOwner(com.sortly.automation.DTO.UsersDTO)[pri:4, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:16:59 IST" name="addAndCloneFolderTestByOwner" data-provider="Owner" finished-at="2023-09-22T10:17:13 IST" duration-ms="14046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+owner_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndCloneFolderTestByOwner -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:17:13 IST" name="quitQuit" finished-at="2023-09-22T10:17:14 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:17:14 IST" name="lunchBrowser" finished-at="2023-09-22T10:17:21 IST" duration-ms="7031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="addAndCloneFolderTestByAdmin(com.sortly.automation.DTO.UsersDTO)[pri:5, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:17:21 IST" name="addAndCloneFolderTestByAdmin" data-provider="Admin" finished-at="2023-09-22T10:17:34 IST" duration-ms="12987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+admin_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndCloneFolderTestByAdmin -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests@7188af83]" started-at="2023-09-22T10:17:34 IST" name="quitQuit" finished-at="2023-09-22T10:17:35 IST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+      </class> <!-- com.sortly.automation.ui.test.SortlyFolderAndItemOperationTests -->
+      <class name="com.sortly.automation.ui.test.SortlyUserLoginTests">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" started-at="2023-09-22T10:10:47 IST" name="lunchBrowser" finished-at="2023-09-22T10:10:55 IST" duration-ms="8769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="loginAsAdminWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" started-at="2023-09-22T10:10:55 IST" name="loginAsAdminWithValidCridentials" data-provider="Admin" finished-at="2023-09-22T10:11:01 IST" duration-ms="5164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+admin_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdminWithValidCridentials -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" started-at="2023-09-22T10:11:01 IST" name="quitQuit" finished-at="2023-09-22T10:11:02 IST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" started-at="2023-09-22T10:11:02 IST" name="lunchBrowser" finished-at="2023-09-22T10:11:09 IST" duration-ms="6728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="loginAsOwnerWithValidCridentials(com.sortly.automation.DTO.UsersDTO)[pri:1, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" started-at="2023-09-22T10:11:09 IST" name="loginAsOwnerWithValidCridentials" data-provider="Owner" finished-at="2023-09-22T10:11:14 IST" duration-ms="5088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UsersDTO {email=prakhar+qa+owner_user@sortly.com, password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsOwnerWithValidCridentials -->
+        <test-method is-config="true" signature="quitQuit()[pri:0, instance:com.sortly.automation.ui.test.SortlyUserLoginTests@5afa3c9]" started-at="2023-09-22T10:11:14 IST" name="quitQuit" finished-at="2023-09-22T10:11:15 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitQuit -->
+      </class> <!-- com.sortly.automation.ui.test.SortlyUserLoginTests -->
+    </test> <!-- sequential -->
+  </suite> <!-- Sortly -->
+</testng-results>

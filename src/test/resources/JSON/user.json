@@ -1,0 +1,11 @@
+{
+  "OWNER" : {
+    "email" : "prakhar+qa+owner_user@sortly.com",
+    "password" : "Test@123"
+  },
+  "ADMIN" : {
+    "email" : "prakhar+qa+admin_user@sortly.com",
+    "password" : "Test@123"
+  }
+
+}
